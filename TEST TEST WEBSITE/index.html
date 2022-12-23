@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/img/Logo-fixed.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Activities&Certificates</a></li>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Tonnam</span><br>from Bangpakokwittayakom<br>school</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------- About ----------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/img/Me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="text-paragraph">
+                        <p>Hello, My name is Yanathorn Rodkajorn. You can call me "Tonnam" I'm 18 years-old. I was born in 3rd February 2004. Now I'm Studying in Grade 12 at Bangpakokwittayakom school.
+                        My hobbies are playing basketball, playing guitar, playing games, listening to musics and drawing. When I'm playing games or using Websites, I always wonder how they're made up. After that I interested in IT till now.
+                        From my interesting, it gives me passion and dream to be a dev. So when I grow up I'll be Web/App developer.
+                        </p>
+                    </div>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('transcript')">Transcript</p>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                                <li><span>Coding</span><br>Javascript, HTML, CSS</li>
+                                <li><span>Editing</span><br>Photoshop, Premiere Pro, Illustrator, Figma, Sketchup</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Kindergarten</span><br>K-1: Watnangnong school<br>K-2,3: Sarasas Witead Bangbon school</li>
+                                <li><span>Elementary school</span><br>Grade 1-6: Sarasas Witead Bangbon school</li>
+                                <li><span>Middle school</span><br>Grade 7-9: Bangpakokwittayakom school</li>
+                                <li><span>High school</span><br>Grade 10-12: Bangpakokwittayakom school</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="transcript">
+                            <ul>
+                                <li><img src="/img/115411.jpg"><img src="/img/115412.jpg"></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------ Activities --------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Activities</h1>
+            <div class="services-list">
+                <div>
+                    <img src="/img/115587.jpg">
+                    <h2>TobeIT'66</h2>
+                    <p>It's a camp that more than a camp because I got many things more than just knowledge and experience and It is reason why I want to study IT faculty.</p>
+                </div>
+                <div>
+                    <img src="/img/IMG_9735.JPG">
+                    <h2>TobeIT'67</h2>
+                    <p>From TobeIT'67 I got a lot of friends and knowledge. And in this camp I have to be more leader in our. So that I got some more skills and experience.
+                    </p>
+                </div>
+                <div>
+                    <img src="/img/115594.jpg">
+                    <h2>Cheerleader</h2>
+                    <p>I was in Cheerleader team when I was in grade 10. It's very fun but also tired because we didn't have much time to prepare our show.
+                        But we had done our best and our show become the best of the best!
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=h7UWoIFMO_M">See our show</a>
+                </div>
+                <div>
+                    <img src="/img/115600.jpg">
+                    <h2>Student Committee's orientation</h2>
+                    <p>The orientation for new student in Grade 7 and Grade 10 organized by Student Committee</p>
+                </div>
+            </div>
+            <h1 class="sub-title">Certificates</h1>
+            <div class="Certificates">
+                <div>
+                    <img src="/img/Certificate pics/LINE_ALBUM_Certificates_221223_0.jpg">
+                    <h2>TobeIT'67 Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate pics/LINE_ALBUM_Certificates_221223_1.jpg">
+                    <h2>Student Committee Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate pics/LINE_ALBUM_Certificates_221223_2.jpg">
+                    <h2>TobeIT'66 Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate pics/LINE_ALBUM_Certificates_221223_3.jpg">
+                    <h2>Committee Royal school award Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate pics/LINE_ALBUM_Certificates_221223_4.jpg">
+                    <h2>Science-Math Skills Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate pics/LINE_ALBUM_Certificates_221223_5.jpg">
+                    <h2>Technology knowledge and skills Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate6.png">
+                    <h2>KMITL Open house</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate7.png">
+                    <h2>Digital Alert Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate8.png">
+                    <h2>Science Day: Technology Quiz Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate9.png">
+                    <h2>LGBTQ+ Exquisite Pride of Paradise Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate10.png">
+                    <h2>Morality and Ethics Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate11.png">
+                    <h2>Good Citizens Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate12.png">
+                    <h2>How to Handling with Conflict Certificate</h2>
+                </div>
+                <div>
+                    <img src="/img/Certificate15.png">
+                    <h2>Drugs's dangers and preventing knowledge</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------------------------------------------- Portfolio --------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/img/tobeit66project.png">
+                <img src="/img/tobeit66project02.png">
+                <img src="/img/tobeit66project03.png">
+                <img src="/img/tobeit66project04.png">
+                <img src="/img/tobeit66project05.png">
+                <div class="layer">
+                    <h3>ANITEST</h3>
+                    <p>TobeIT'66 Project. A web that can predict your suitable faculty by your favorite anime Made by D-Digitize family</p>
+                    <a href="https://www.figma.com/proto/LGDaKbAmOIzv7T7uZMgZky/Project-KMITL?node-id=182%3A44&scaling=scale-down&page-id=2%3A23"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/TobeIT67-Project.png">
+                <img src="/img/TobeIT67-Project02.png">
+                <img src="/img/TobeIT67-Project03.png">
+                <img src="/img/TobeIT67-Project04.png">
+                <img src="/img/TobeIT67-Project05.png">
+                <img src="/img/TobeIT67-Project06.png">
+                <img src="/img/TobeIT67-Project07.png">
+                <div class="layer">
+                    <h3>PINNA(PLANIN)</h3>
+                    <p>TobeIT'67 Project. An application that link with device through wireless.</p>
+                    <a href="https://www.figma.com/proto/fgibRrzedK44K6qt27Arjn/web-design?node-id=26%3A355&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=26%3A355"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Contact--------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>tonnam250@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>0639261100</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/tonnam250"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/yakpenbadboii_/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Tonnam Portfolio Made with <i class="fa-solid fa-heart"></i> by Yanathorn Rodkajorn</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNE40iaknjlMnnC-nEPeIJ4DE7GGOcYuUtIK63KrxkfUjsNa4Po-lVQjSUFswTK1P-qQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
